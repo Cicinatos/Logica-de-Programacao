@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Windows"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-19 08:26:00 "/>
+        <attribute name="created" value="V2luZG93cztERVNLVE9QLVRES0s5S0E7MjAyMC0wNS0xOTsiMDc6MTE6MzUgIjszMDIw"/>
+        <attribute name="edited" value="V2luZG93cztERVNLVE9QLVRES0s5S0E7MjAyMC0wNS0xOTsiMDg6MjY6MDAgIjsxOzMxMjc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite, numero1" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="9"/>
+            <assign variable="limite" expression="90"/>
+            <assign variable="numero1" expression="1"/>
+            <while expression="numero&lt;=limite">
+                <output expression="&quot;9x&quot;&amp; numero1 &amp; &quot; = &quot; &amp; numero" newline="True"/>
+                <assign variable="numero" expression="numero+9"/>
+                <assign variable="numero1" expression="numero1+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
